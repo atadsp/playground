@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url('../img/background.jpg');
+	
+}
+
+#body{
+	background-color:#999999;
+}
+
+#Library {
+   background-image: url('../img/rwbymeme.png');
+   height: 1000px;
+   width: 720px;
+}
+
+#Library:hover {
+   background-image:url('../img/domimage.png');
+   height: 948px;
+   width: 1142px;
+}
+
+#red {
+	color:#F00;	
+}
+
+.marill{
+  padding: 150px;
+}
+
+.body {
+	width: 220px;
+	height: 250px;
+	background: #0099ff;
+  border: 1px solid black;
+	border-radius: 220px / 250px;
+}
+
+.white_spot{
+  width: 150px;
+	height: 150px;
+	background: white;
+  border: 1px solid black;
+	border-radius: 150px;
+  clear: both;
+  position: relative;
+  top:95px;
+  left: 35px;
+}
+
+.eyes {
+	width: 30px;
+	height: 30px;
+	background: #000;
+	border-radius: 100px;
+	position: relative;
+	bottom: 150px;
+	}	
+	
+.eyes.lefteye {
+		left: 65px;
+		}
+		
+.eyes.righteye {
+		right: -120px;
+    bottom: 210px;
+		}
+
+.inner_eye{
+  width:10px;
+  height: 10px;
+	border-radius: 10px;
+  border: 2px solid white;
+  postion:relative;
+  margin: 10px;
+  margin-top: 30px;
+  background-color: #FFFFFF;
+}
+
+.mouth{
+  width: 40px;
+	height: 14px;
+	border: 2px solid #000;
+	border-top: 0;
+	background: red;
+	border-radius: 0 0 100px 100px;
+	position: relative;
+	bottom: 196px;
+	left: 85px;
+}
+
+.nose{
+  width: 10px;
+	height: 10px;
+	background: black;
+  border: 1px solid black;
+	border-radius: 10px;
+  position: relative;
+  bottom: 228px;
+  left: 103px;
+}
+.ear{
+  width: 80px;
+	height: 80px;
+	background: #0099ff;
+  border: 1px solid black;
+	border-radius: 100px;
+	position: relative;
+	bottom: 300px;
+}
+
+.ear.leftear{
+  
+}
+
+.ear.rightear{
+  bottom: 380px;
+  left: 130px;
+}
+
+.inner_ear{
+  width:60px;
+  height: 60px;
+	border-radius: 60px;
+  border: 2px solid red;
+  postion:relative;
+  margin: 8px;
+  margin-top: 9px;
+  background-color: red;
+}
+
+.arm{
+  width: 40px;
+	height: 100px;
+	background: #0099ff;
+  border: 1px solid black;
+	border-radius: 40px / 100px;
+  position: relative;
+  bottom: 330px;
+}
+
+.arm.left_arm{
+  right: 20px;
+}
+
+.arm.right_arm{
+  bottom: 430px;
+  left: 200px;
+}
+
+.foot{
+  	width: 80px;
+	height: 40px;
+	background: #0099ff;
+  border: 1px solid black;
+	border-radius: 40px / 20px;
+  position: relative;
+  bottom: 385px;
+}
+
+.foot.left_foot{
+  right: 3px;
+}
+
+.foot.right_foot{
+  bottom: 425px;
+  left: 138px;
+}
