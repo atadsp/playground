@@ -2,28 +2,63 @@
 /* CSS Document */
 
 body{
-	background-image:url('../img/background.jpg');
-	
+	background-image:url('../img/background2.jpg');
 }
 
 #body{
 	background-color:#999999;
+	padding: 5px 10px 10px 10px;
 }
 
 #Library {
    background-image: url('../img/rwbymeme.png');
-   height: 1000px;
+   height: 1008px;
    width: 720px;
 }
 
 #Library:hover {
    background-image:url('../img/domimage.png');
-   height: 948px;
+   height: 1008px;
    width: 1142px;
 }
 
 #red {
 	color:#F00;	
+}
+
+#navbar{
+	background-color:#333;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	border-radius: 10px;
+}
+
+#navbar li {
+    float: left;
+	background-color:#FFF;
+	border-radius: 10px;
+}
+
+#navbar li a {
+    display: inline-block;
+    color: black;
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border-radius: 10px;
+}
+
+#navbar li a:hover {
+    background-color: black;
+	color: white;
+	border-radius: 10px;
 }
 
 .marill{
