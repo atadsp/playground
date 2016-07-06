@@ -104,7 +104,7 @@ var monster ={
 	
 	radioWarning:function(){
 		if(this.isScary === true){
-			return "run for your lives!";
+			return "run for your lives! It's " +this.name + "!";
 		} else if (this.heightMeters > 10){
 			return "it's not scary but stay away";
 		} else {
